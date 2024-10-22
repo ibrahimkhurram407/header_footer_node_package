@@ -1,0 +1,41 @@
+{
+  "name": "header_footer_node_package",
+  "version": "1.0.8",
+  "description": "simple easy to use header and footer component",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "rollup": "rollup -c --bundleConfigAsCjs"
+  },
+  "dependencies": {
+    "react-dom": "^18.3.1",
+    "rollup-plugin-postcss": "^4.0.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ibrahimkhurram407/header_footer_node_package.git"
+  },
+  "author": "Ibrahim Khurram",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ibrahimkhurram407/header_footer_node_package/issues"
+  },
+  "homepage": "https://github.com/ibrahimkhurram407/header_footer_node_package#readme",
+  "devDependencies": {
+    "@rollup/plugin-babel": "^6.0.4",
+    "@rollup/plugin-commonjs": "^28.0.1",
+    "@rollup/plugin-node-resolve": "^15.3.0",
+    "@rollup/plugin-terser": "^0.4.4",
+    "@rollup/plugin-typescript": "^12.1.1",
+    "@types/react": "^18.3.11",
+    "@types/react-dom": "^18.3.1",
+    "react": "^18.3.1",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-dts": "^6.1.1",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "tslib": "^2.8.0",
+    "typescript": "^5.6.3"
+  }
+}
