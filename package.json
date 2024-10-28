@@ -1,6 +1,6 @@
 {
   "name": "header_footer_node_package",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "simple easy to use header and footer component",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
